@@ -758,7 +758,7 @@
     </message>
     <message>
         <source>Transifex Fileman project</source>
-        <translation type="unfinished"></translation>
+        <translation>Transifex 上的 Fileman 頁面</translation>
     </message>
 </context>
 <context>
