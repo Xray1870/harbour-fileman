@@ -8,7 +8,7 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Sat Dec 21 2019 Rudi Timmermans <rudi.timmer@mail.ch> 1.2-1
+* Thu Dec 24 2019 Rudi Timmermans <rudi.timmer@mail.ch> 1.2-1
 - [MAJOR UPDATE] Clean up code
 - [MAJOR UPDATE] Rework the about screen
 - [MAJOR UPDATE] Reduce the space of Fileman as app
