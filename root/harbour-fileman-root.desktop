@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Fileman (Root)
+Icon=harbour-fileman-root
+Exec=/usr/share/harbour-fileman-root/start-root
+Categories=System;FileTools;FileManager
+X-Desktop-File-Install-Version=0.20
+
