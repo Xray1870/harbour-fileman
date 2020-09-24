@@ -70,7 +70,7 @@ Page {
             }
 
             Text {
-                text: "<a href=\"mailto:rudi.timmer@mail.ch\">" + qsTr("Write a mail") + "</a>"
+                text: "<a href=\"mailto:rudi.timmer@gmx.com\">" + qsTr("Write a mail") + "</a>"
                 anchors {
                     horizontalCenter: parent.horizontalCenter
                 }
@@ -95,7 +95,7 @@ Page {
             }
 
             Text {
-                text: "<a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=29THE9VFMZ4PS\">" + qsTr("Donate with Paypal") + "</a>"
+                text: "<a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BN7N7Q8U2PWFS\">" + qsTr("Donate with Paypal") + "</a>"
                 anchors {
                     horizontalCenter: parent.horizontalCenter
                 }

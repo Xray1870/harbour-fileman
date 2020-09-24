@@ -39,7 +39,7 @@ Page {
 
         PlainButton {
             text: qsTr("Donate!")
-            onClicked: Qt.openUrlExternally("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=29THE9VFMZ4PS")
+            onClicked: Qt.openUrlExternally("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BN7N7Q8U2PWFS")
         }
 
         PlainButton {
