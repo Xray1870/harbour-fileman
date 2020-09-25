@@ -16,12 +16,6 @@ FileProcess::FileProcess(QObject *parent) :
     connect(process, SIGNAL(finished(int)), this, SLOT(processFinished(int)));
 }
 
-/*
- *  Perform a file action
- *
- *  If track is true, run the application disregarding whether anything actually happens
- *  If track is false, run the application and track it until it's finished
- */
 bool FileProcess::performFileAction(const QString &fullPath, const QString &action, const bool &track)
 {
     QString program;
@@ -29,13 +23,13 @@ bool FileProcess::performFileAction(const QString &fullPath, const QString &acti
 
     if (action == "installApk")
     {
-        program = "xdg-open";
+        program = "apkd-install";
         parameters << fullPath;
     }
     else if (action == "installRpm")
     {
-        program = "xdg-open";
-        parameters << fullPath;
+        program = "pkcon";
+        parameters << "-y" << "-p" << "install-local" << fullPath;
     }
     else if (action == "openSystem")
     {

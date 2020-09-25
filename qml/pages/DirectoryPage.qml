@@ -127,6 +127,10 @@ Page {
         viewMode = typeof viewMode !== 'undefined' ? viewMode : "list"
         //viewMode = typeof viewMode !== 'undefined' ? viewMode : settings.defaultViewMode
 
+        // If there are two pages open (eg. a transition is in progress), ignore this
+        if (directoryListRow.children.length >= 2 && !skipAnimation)
+            return
+
         // Clear the list of selected files
         clipboard.clearSelectedFiles()
         selectingItems = false

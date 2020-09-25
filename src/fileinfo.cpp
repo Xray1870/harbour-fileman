@@ -1,3 +1,4 @@
+
 #include "fileinfo.h"
 
 FileInfo::FileInfo(QObject *parent) :
